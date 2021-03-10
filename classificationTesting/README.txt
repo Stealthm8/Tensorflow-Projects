@@ -1,1 +1,1 @@
-A simple script that uses tenserflow to create classifications between different images of numbers (0-9). The model is initially fed training data, and after training is complete, the trained model attempts to classify different images in the testing data and display testing metrics.
+A simple script that uses tenserflow to create classifications between different images of numbers (0-9). The model is initially fed training data, and after the training is complete, the trained model attempts to classify different images in the testing data and display testing metrics.
