@@ -1,1 +1,1 @@
-A reflection of my progess in Tensorflow / Machine Learning.
+A reflection of my progess in Tensorflow / Machine Learning / AI.
