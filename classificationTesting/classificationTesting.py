@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 mnistData = tf.keras.datasets.mnist
 (train_images, train_labels), (test_images, test_labels) = mnistData.load_data()
 
-class_names = ['0', '1', '2', '3', '4', '5', '6', '6', '7', '8', '9', '10']
+class_names = ['0', '1', '2', '3', '4', '5', '6', '6', '7', '8', '9']
 train_images = train_images / 255.0
 test_images = test_images / 255.0
 
