@@ -40,6 +40,7 @@ def KalmanFilterRegression(x,y):
 
 def plot_indicator(startDate, endDate, ticker1, ticker2, up, down):
     newData = pdr.get_data_yahoo([ticker1, ticker2], start = startDate, end = endDate)
+    #I had to add an index because adding too many images in a single run would cause the program to halt. For each run, only generate a year's worth of images and add the result of place for the last run to the current index
     index = 0
 
     place = 0
