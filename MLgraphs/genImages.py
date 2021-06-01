@@ -40,7 +40,7 @@ def KalmanFilterRegression(x,y):
 
 def plot_indicator(startDate, endDate, ticker1, ticker2, up, down):
     newData = pdr.get_data_yahoo([ticker1, ticker2], start = startDate, end = endDate)
-    index = 1967
+    index = 0
 
     place = 0
     mc = mpf.make_marketcolors(up='blue',down='black')
