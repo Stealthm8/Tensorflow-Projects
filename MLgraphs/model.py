@@ -7,7 +7,7 @@ from tqdm import tqdm
 import random
 import tensorflow as tf
 
-DATADIR = ["C:/Users/elias/Desktop/images/GC_SI"]
+DATADIR = [""]
 CATEGORIES = ["DOWN", "UP"]
 
 training_data = []
